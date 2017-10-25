@@ -1,0 +1,6 @@
+[submodule "linuxkit_moby_qcuda/linuxkit"]
+	path = linuxkit_moby_qcuda/linuxkit
+	url = https://github.com/linuxkit/linuxkit
+[submodule "linuxkit_moby_qcuda/qCUDA"]
+	path = linuxkit_moby_qcuda/qCUDA
+	url = https://github.com/good5dog5/qCUDA
