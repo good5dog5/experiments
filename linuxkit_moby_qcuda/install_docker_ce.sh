@@ -23,3 +23,6 @@ sudo add-apt-repository  "deb [arch=amd64] https://download.docker.com/linux/ubu
 # Install docker-ce
 sudo apt-get update
 sudo apt-get install docker-ce -y
+
+# Add user to group
+sudo usermod -aG docker "$USER"
