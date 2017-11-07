@@ -26,3 +26,6 @@ sudo apt-get install docker-ce -y
 
 # Add user to group
 sudo usermod -aG docker "$USER"
+# Update user group without logout(https://superuser.com/questions/272061/reload-a-linux-users-group-assignments-without-logging-out)
+su - "$USER"
+
