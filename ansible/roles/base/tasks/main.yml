@@ -40,15 +40,24 @@
     purge: yes
 
   with_items:
-    - name: git-core
+    - name: autojump
     - name: build-essential
+    - name: curl
+    - name: git-core
     - name: htop
-    - name: silversearcher-ag
+    - name: ncdu
+    - name: nmap
     - name: p7zip-full
     - name: p7zip-rar
+    - name: ranger
+    - name: silversearcher-ag
+    - name: tig
     - name: tmux
-    - name: yadm
-    - name: curl
-    - name: zsh
-    - name: ncdu
     - name: vim
+    - name: yadm
+    - name: zsh
+    - name: automake
+    - name: catfish
+    - name: feh
+    - name: git
+
